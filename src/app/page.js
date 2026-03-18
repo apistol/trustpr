@@ -1,45 +1,40 @@
-import Footer from "@/components/layout/footer/Footer";
+import Footer2 from "@/components/layout/footer/Footer2";
 import Header from "@/components/layout/header/Header";
-import About1 from "@/components/sections/about/About1";
-import Blogs1 from "@/components/sections/blogs/Blogs1";
-import Brands1 from "@/components/sections/brands/Brands1";
-import Contact2 from "@/components/sections/contacts/Contact2";
-import Cta from "@/components/sections/cta/Cta";
-import Faq2 from "@/components/sections/faq/Faq2";
-import Features from "@/components/sections/features/Features";
-import Funfact1 from "@/components/sections/funfacts/Funfact1";
-import Hero from "@/components/sections/hero/Hero";
-import Portfolios1 from "@/components/sections/portfolios/Portfolios1";
-import Services1 from "@/components/sections/services/Services1";
-import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
+import About2 from "@/components/sections/about/About2";
+import Blogs2 from "@/components/sections/blogs/Blogs2";
+import Brands2 from "@/components/sections/brands/Brands2";
+import HeroTrustPR from "@/components/sections/hero/HeroTrustPR";
+import Portfolios2 from "@/components/sections/portfolios/Portfolios2";
+import PricingPlan from "@/components/sections/pricing-plan/PricingPlan";
+import Process from "@/components/sections/process/Process";
+import Services2 from "@/components/sections/services/Services2";
+import Team1 from "@/components/sections/teams/Team1";
+import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import BackToTop from "@/components/shared/others/BackToTop";
-import HeaderSpace from "@/components/shared/others/HeaderSpace";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 
 export default function Home() {
 	return (
 		<div>
 			<BackToTop />
-			<Header />
-			<Header isStickyHeader={true} />
+			<Header headerType={2} />
+			<Header headerType={2} isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
-						<HeaderSpace />
-						<Hero />
-						<Features />
-						<Brands1 />
-						<About1 />
-						<Services1 />
-						<Portfolios1 />
-						<Funfact1 />
-						<Testimonials1 />
-						<Faq2 type={1} />
-						<Contact2 />
-						<Blogs1 />
-						<Cta />
+						<div className="top-space-15"></div>
+						<HeroTrustPR />
+						<Brands2 />
+						<About2 />
+						<Services2 />
+						<Portfolios2 />
+						<Process />
+						<Testimonials2 />
+						<Team1 />
+						<PricingPlan />
+						<Blogs2 />
 					</main>
-					<Footer />
+					<Footer2 />
 				</div>
 			</div>
 

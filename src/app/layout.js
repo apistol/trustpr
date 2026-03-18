@@ -1,4 +1,4 @@
-import { Mona_Sans } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "react-range-slider-input/dist/style.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -16,29 +16,29 @@ import "./assets/css/nice-select2.css";
 import "./assets/css/odometer-theme-default.css";
 import "./globals.scss";
 
-const bodyFont = Mona_Sans({
+const bodyFont = Inter({
 	variable: "--tj-ff-body",
 	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
-	style: ["normal", "italic"],
+	weight: ["300", "400", "500", "600", "700"],
+	style: ["normal"],
 	display: "swap",
 });
-const headingFont = Mona_Sans({
+const headingFont = Playfair_Display({
 	variable: "--tj-ff-heading",
 	subsets: ["latin"],
-	weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+	weight: ["400", "500", "600", "700"],
 	style: ["normal", "italic"],
 	display: "swap",
 });
 
 export const metadata = {
-	title: "Bexon - Corporate Business React NextJs Template",
-	description: "Bexon - Corporate Business React NextJs Template",
+	title: "Agenție Boutique de PR și Comunicare",
+	description: "Suntem o agenție boutique de PR și comunicare care lucrează exclusiv în formule personalizate, adaptate fiecărui brand, lider sau organizație.",
 };
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en" data-scroll-behavior="smooth" dir="ltr">
+		<html lang="ro" data-scroll-behavior="smooth" dir="ltr">
 			<body className={`${bodyFont.variable} ${headingFont.variable}`}>
 				{children}
 			</body>

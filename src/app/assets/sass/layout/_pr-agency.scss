@@ -1,0 +1,816 @@
+// PR Agency - Premium Boutique Design
+// =====================================
+
+// Variables
+$pr-black: #1a1a1a;
+$pr-body: #4a4a4a;
+$pr-muted: #717171;
+$pr-light: #f8f8f8;
+$pr-white: #ffffff;
+$pr-border: #e5e5e5;
+
+$pr-spacing-xl: 120px;
+$pr-spacing-lg: 80px;
+$pr-spacing-md: 60px;
+$pr-spacing-sm: 40px;
+
+$pr-max-width: 800px;
+
+// =====================================
+// Header
+// =====================================
+.pr-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	padding: 24px 0;
+	transition: all 0.3s ease;
+	background: transparent;
+
+	&--scrolled {
+		background: $pr-white;
+		box-shadow: 0 1px 0 $pr-border;
+		padding: 16px 0;
+	}
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		font-family: var(--tj-ff-heading);
+		font-size: 24px;
+		font-weight: 600;
+		color: $pr-black;
+		text-decoration: none;
+		letter-spacing: -0.02em;
+	}
+
+	&__nav {
+		display: flex;
+		gap: 40px;
+
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+
+	&__link {
+		font-family: var(--tj-ff-body);
+		font-size: 15px;
+		font-weight: 400;
+		color: $pr-body;
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: $pr-black;
+		}
+	}
+
+	&__burger {
+		display: none;
+		flex-direction: column;
+		gap: 6px;
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 8px;
+
+		@media (max-width: 768px) {
+			display: flex;
+		}
+
+		span {
+			width: 24px;
+			height: 2px;
+			background: $pr-black;
+			transition: all 0.3s ease;
+		}
+
+		&--active {
+			span:first-child {
+				transform: rotate(45deg) translate(3px, 3px);
+			}
+			span:last-child {
+				transform: rotate(-45deg) translate(3px, -3px);
+			}
+		}
+	}
+
+	&__mobile {
+		position: fixed;
+		top: 70px;
+		left: 0;
+		right: 0;
+		background: $pr-white;
+		padding: 0;
+		max-height: 0;
+		overflow: hidden;
+		transition: all 0.3s ease;
+
+		&--open {
+			max-height: 300px;
+			padding: 24px 0;
+			border-bottom: 1px solid $pr-border;
+		}
+	}
+
+	&__mobile-nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	&__mobile-link {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		color: $pr-black;
+		text-decoration: none;
+	}
+}
+
+// =====================================
+// Hero Section
+// =====================================
+.pr-hero {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: $pr-spacing-xl 0;
+	background: $pr-white;
+
+	&__content {
+		max-width: $pr-max-width;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(36px, 6vw, 64px);
+		font-weight: 500;
+		line-height: 1.15;
+		color: $pr-black;
+		margin-bottom: 32px;
+		letter-spacing: -0.02em;
+	}
+
+	&__subtitle {
+		font-family: var(--tj-ff-body);
+		font-size: clamp(17px, 2vw, 20px);
+		font-weight: 400;
+		line-height: 1.7;
+		color: $pr-body;
+		margin-bottom: 48px;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__cta {
+		display: inline-flex;
+		align-items: center;
+		gap: 12px;
+		font-family: var(--tj-ff-body);
+		font-size: 16px;
+		font-weight: 500;
+		color: $pr-black;
+		text-decoration: none;
+		padding: 16px 0;
+		border-bottom: 1px solid $pr-black;
+		transition: all 0.3s ease;
+
+		&:hover {
+			gap: 20px;
+		}
+	}
+
+	&__cta-arrow {
+		transition: transform 0.3s ease;
+	}
+}
+
+// =====================================
+// About Section
+// =====================================
+.pr-about {
+	padding: $pr-spacing-xl 0;
+	background: $pr-light;
+
+	&__content {
+		max-width: $pr-max-width;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 32px;
+		letter-spacing: -0.01em;
+	}
+
+	&__text {
+		font-family: var(--tj-ff-body);
+		font-size: clamp(18px, 2vw, 22px);
+		font-weight: 400;
+		line-height: 1.7;
+		color: $pr-body;
+	}
+}
+
+// =====================================
+// Why Boutique Section
+// =====================================
+.pr-boutique {
+	padding: $pr-spacing-xl 0;
+	background: $pr-white;
+
+	&__content {
+		max-width: $pr-max-width;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 48px;
+		text-align: center;
+		letter-spacing: -0.01em;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__item {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		padding: 24px 0;
+		border-bottom: 1px solid $pr-border;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	&__bullet {
+		color: $pr-muted;
+		font-size: 16px;
+	}
+
+	&__text {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		font-weight: 400;
+		color: $pr-black;
+		line-height: 1.5;
+	}
+}
+
+// =====================================
+// Team & Philosophy Section
+// =====================================
+.pr-team {
+	padding: $pr-spacing-xl 0;
+	background: $pr-light;
+
+	&__content {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 60px;
+		text-align: center;
+		letter-spacing: -0.01em;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 80px;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 48px;
+		}
+	}
+
+	&__column {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	&__text {
+		font-family: var(--tj-ff-body);
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 1.8;
+		color: $pr-body;
+	}
+
+	&__belief {
+		font-family: var(--tj-ff-heading);
+		font-style: italic;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 1.6;
+		color: $pr-black;
+	}
+
+	&__values {
+		margin-top: 24px;
+	}
+
+	&__values-title {
+		font-family: var(--tj-ff-body);
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: $pr-muted;
+		margin-bottom: 20px;
+	}
+
+	&__values-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__value {
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		padding: 12px 0;
+		font-family: var(--tj-ff-body);
+		font-size: 16px;
+		color: $pr-black;
+	}
+
+	&__value-bullet {
+		color: $pr-muted;
+	}
+}
+
+// =====================================
+// Approach Section
+// =====================================
+.pr-approach {
+	padding: $pr-spacing-xl 0;
+	background: $pr-white;
+
+	&__header {
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 16px;
+		letter-spacing: -0.01em;
+	}
+
+	&__subtitle {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		color: $pr-muted;
+	}
+
+	&__steps {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 60px;
+		max-width: 1000px;
+		margin: 0 auto;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+			gap: 48px;
+		}
+	}
+
+	&__step {
+		text-align: center;
+	}
+
+	&__number {
+		display: block;
+		font-family: var(--tj-ff-heading);
+		font-size: 14px;
+		font-weight: 400;
+		color: $pr-muted;
+		margin-bottom: 20px;
+		letter-spacing: 0.1em;
+	}
+
+	&__step-title {
+		font-family: var(--tj-ff-heading);
+		font-size: 26px;
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 16px;
+	}
+
+	&__step-desc {
+		font-family: var(--tj-ff-body);
+		font-size: 16px;
+		line-height: 1.6;
+		color: $pr-body;
+	}
+}
+
+// =====================================
+// Onboarding Section
+// =====================================
+.pr-onboarding {
+	padding: $pr-spacing-xl 0;
+	background: $pr-black;
+	color: $pr-white;
+
+	&__header {
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		color: $pr-white;
+		margin-bottom: 16px;
+		letter-spacing: -0.01em;
+	}
+
+	&__subtitle {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		color: rgba($pr-white, 0.6);
+	}
+
+	&__timeline {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 40px;
+		max-width: 1000px;
+		margin: 0 auto;
+
+		@media (max-width: 992px) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@media (max-width: 576px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__stage {
+		position: relative;
+		padding: 32px;
+		border: 1px solid rgba($pr-white, 0.1);
+		transition: border-color 0.3s ease;
+
+		&:hover {
+			border-color: rgba($pr-white, 0.3);
+		}
+	}
+
+	&__stage-number {
+		font-family: var(--tj-ff-heading);
+		font-size: 12px;
+		color: rgba($pr-white, 0.4);
+		letter-spacing: 0.1em;
+		margin-bottom: 16px;
+	}
+
+	&__stage-title {
+		font-family: var(--tj-ff-heading);
+		font-size: 20px;
+		font-weight: 500;
+		color: $pr-white;
+		margin-bottom: 12px;
+	}
+
+	&__stage-desc {
+		font-family: var(--tj-ff-body);
+		font-size: 15px;
+		line-height: 1.6;
+		color: rgba($pr-white, 0.7);
+	}
+
+	&__connector {
+		display: none;
+	}
+}
+
+// =====================================
+// Services Sections
+// =====================================
+.pr-services {
+	padding: $pr-spacing-xl 0;
+
+	&--pr {
+		background: $pr-white;
+	}
+
+	&--consulting {
+		background: $pr-light;
+	}
+
+	&--collab {
+		background: $pr-white;
+	}
+
+	&__header {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+
+	&__label {
+		display: block;
+		font-family: var(--tj-ff-body);
+		font-size: 12px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.15em;
+		color: $pr-muted;
+		margin-bottom: 16px;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(28px, 3.5vw, 42px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 0;
+		letter-spacing: -0.01em;
+	}
+
+	&__note {
+		font-family: var(--tj-ff-body);
+		font-size: 16px;
+		color: $pr-muted;
+		margin-top: 12px;
+	}
+
+	&__grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 32px;
+		max-width: 1000px;
+		margin: 0 auto;
+
+		@media (max-width: 768px) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	&__card {
+		padding: 40px;
+		border: 1px solid $pr-border;
+		transition: all 0.3s ease;
+
+		&:hover {
+			border-color: $pr-black;
+		}
+
+		&--partner {
+			background: $pr-light;
+			border-color: transparent;
+
+			&:hover {
+				background: #f0f0f0;
+			}
+		}
+	}
+
+	&__card-title {
+		font-family: var(--tj-ff-heading);
+		font-size: 22px;
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 16px;
+	}
+
+	&__card-desc {
+		font-family: var(--tj-ff-body);
+		font-size: 15px;
+		line-height: 1.7;
+		color: $pr-body;
+	}
+}
+
+// =====================================
+// Visuals Section
+// =====================================
+.pr-visuals {
+	padding: $pr-spacing-xl 0;
+	background: $pr-light;
+
+	&__content {
+		max-width: $pr-max-width;
+		margin: 0 auto;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(32px, 4vw, 48px);
+		font-weight: 500;
+		font-style: italic;
+		color: $pr-black;
+		margin-bottom: 24px;
+		text-align: center;
+		letter-spacing: -0.01em;
+	}
+
+	&__intro {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		line-height: 1.7;
+		color: $pr-body;
+		text-align: center;
+		margin-bottom: 48px;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__item {
+		display: flex;
+		align-items: flex-start;
+		gap: 16px;
+		padding: 20px 0;
+		border-bottom: 1px solid $pr-border;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	&__icon {
+		color: $pr-muted;
+		font-size: 8px;
+		margin-top: 8px;
+	}
+
+	&__text {
+		font-family: var(--tj-ff-body);
+		font-size: 17px;
+		line-height: 1.6;
+		color: $pr-black;
+	}
+}
+
+// =====================================
+// Contact CTA Section
+// =====================================
+.pr-contact {
+	padding: $pr-spacing-xl 0;
+	background: $pr-white;
+
+	&__content {
+		max-width: 600px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	&__title {
+		font-family: var(--tj-ff-heading);
+		font-size: clamp(36px, 5vw, 56px);
+		font-weight: 500;
+		color: $pr-black;
+		margin-bottom: 24px;
+		letter-spacing: -0.02em;
+	}
+
+	&__text {
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		line-height: 1.7;
+		color: $pr-body;
+		margin-bottom: 40px;
+	}
+
+	&__cta {
+		display: inline-block;
+		font-family: var(--tj-ff-body);
+		font-size: 18px;
+		font-weight: 500;
+		color: $pr-black;
+		text-decoration: none;
+		padding-bottom: 4px;
+		border-bottom: 2px solid $pr-black;
+		transition: all 0.3s ease;
+
+		&:hover {
+			color: $pr-muted;
+			border-color: $pr-muted;
+		}
+	}
+}
+
+// =====================================
+// Footer
+// =====================================
+.pr-footer {
+	padding: $pr-spacing-md 0;
+	background: $pr-black;
+	color: $pr-white;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+	}
+
+	&__brand {
+		text-align: center;
+	}
+
+	&__logo {
+		font-family: var(--tj-ff-heading);
+		font-size: 22px;
+		font-weight: 600;
+		color: $pr-white;
+		text-decoration: none;
+		display: block;
+		margin-bottom: 8px;
+	}
+
+	&__tagline {
+		font-family: var(--tj-ff-body);
+		font-size: 14px;
+		color: rgba($pr-white, 0.6);
+	}
+
+	&__contact {
+		margin: 16px 0;
+	}
+
+	&__email {
+		font-family: var(--tj-ff-body);
+		font-size: 16px;
+		color: $pr-white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba($pr-white, 0.3);
+		padding-bottom: 2px;
+		transition: border-color 0.3s ease;
+
+		&:hover {
+			border-color: $pr-white;
+		}
+	}
+
+	&__bottom {
+		padding-top: 24px;
+		border-top: 1px solid rgba($pr-white, 0.1);
+		width: 100%;
+		text-align: center;
+	}
+
+	&__copyright {
+		font-family: var(--tj-ff-body);
+		font-size: 13px;
+		color: rgba($pr-white, 0.4);
+	}
+}
+
+// =====================================
+// Utility Classes
+// =====================================
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 24px;
+
+	@media (max-width: 768px) {
+		padding: 0 20px;
+	}
+}
