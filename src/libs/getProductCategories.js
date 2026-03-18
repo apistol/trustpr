@@ -1,4 +1,4 @@
-import productCategries from "../../public/fakedata/product-categories";
+import productCategries from "@/data/product-categories.json";
 
 const getProductCategories = () => {
 	return productCategries;

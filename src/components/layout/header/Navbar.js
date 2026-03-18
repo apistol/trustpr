@@ -44,7 +44,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 																		src={
 																			item?.img
 																				? item?.img
-																				: "/images/header/demo/home-1.webp"
+																				: "/images/header/demo/home-1.svg"
 																		}
 																		alt=""
 																		width={570}
@@ -150,7 +150,7 @@ const Navbar = ({ headerType, isStickyHeader }) => {
 													</Link>
 												</div>
 												<div className="feature-images">
-													<img src="/images/service/service-ad.webp" alt="" />
+													<img src="/images/service/service-ad.svg" alt="" />
 												</div>
 											</div>
 										</div>

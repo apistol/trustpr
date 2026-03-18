@@ -27,7 +27,7 @@ const BrandSlider1 = ({ className }) => {
 						<SwiperSlide key={idx} className="client-item">
 							<div className="client-logo">
 								<img
-									src={img ? img : "/images/brands/brand-1.webp"}
+									src={img ? img : "/images/brands/brand-1.svg"}
 									alt="Brand"
 								/>
 							</div>

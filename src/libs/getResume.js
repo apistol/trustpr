@@ -1,4 +1,4 @@
-import resume from "../../public/fakedata/resume";
+import resume from "@/data/resume.json";
 
 const getResume = () => {
   return resume;

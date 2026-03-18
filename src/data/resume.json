@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "type": "education",
+    "title": "Master of Business Administration",
+    "institution": "Harvard Business School",
+    "year": "2018 - 2020",
+    "description": "Specialized in strategic management and entrepreneurship."
+  },
+  {
+    "id": 2,
+    "type": "experience",
+    "title": "Senior Consultant",
+    "institution": "McKinsey & Company",
+    "year": "2020 - Present",
+    "description": "Leading digital transformation projects for Fortune 500 companies."
+  }
+]

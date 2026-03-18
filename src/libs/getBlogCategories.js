@@ -1,4 +1,4 @@
-import blogsCategries from "../../public/fakedata/blog-categories";
+import blogsCategries from "@/data/blog-categories.json";
 
 const getBlogCategories = () => {
   return blogsCategries;

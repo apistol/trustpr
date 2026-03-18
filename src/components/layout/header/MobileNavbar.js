@@ -52,7 +52,7 @@ const MobileNavbar = () => {
 																			src={
 																				item?.img
 																					? item?.img
-																					: "/images/header/demo/home-1.webp"
+																					: "/images/header/demo/home-1.svg"
 																			}
 																			alt=""
 																			width={570}
@@ -149,7 +149,7 @@ const MobileNavbar = () => {
 													</div>
 													<div className="feature-images">
 														<Image
-															src="/images/service/service-ad.webp"
+															src="/images/service/service-ad.svg"
 															alt=""
 															width={370}
 															height={370}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "How to Build a Successful Business Strategy",
+    "slug": "build-successful-business-strategy",
+    "excerpt": "Learn the key elements of creating a winning business strategy that drives growth.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "/assets/images/blog/blog-1.jpg",
+    "date": "2024-01-15",
+    "author": "John Doe",
+    "category": "Business",
+    "tags": ["strategy", "business", "growth"]
+  },
+  {
+    "id": 2,
+    "title": "The Future of Digital Marketing",
+    "slug": "future-digital-marketing",
+    "excerpt": "Discover the latest trends shaping the digital marketing landscape.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "/assets/images/blog/blog-2.jpg",
+    "date": "2024-01-20",
+    "author": "Jane Smith",
+    "category": "Marketing",
+    "tags": ["marketing", "digital", "trends"]
+  },
+  {
+    "id": 3,
+    "title": "Innovation in Technology",
+    "slug": "innovation-technology",
+    "excerpt": "Exploring breakthrough technologies that are changing industries.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "/assets/images/blog/blog-3.jpg",
+    "date": "2024-01-25",
+    "author": "Mike Johnson",
+    "category": "Technology",
+    "tags": ["technology", "innovation", "future"]
+  }
+]

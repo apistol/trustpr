@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Corporate Website Redesign",
+    "slug": "corporate-website-redesign",
+    "category": "Web Design",
+    "image": "/assets/images/portfolio/portfolio-1.jpg",
+    "client": "ABC Corporation",
+    "date": "2024-01-10"
+  },
+  {
+    "id": 2,
+    "title": "E-commerce Platform",
+    "slug": "ecommerce-platform",
+    "category": "Development",
+    "image": "/assets/images/portfolio/portfolio-2.jpg",
+    "client": "XYZ Store",
+    "date": "2024-01-15"
+  },
+  {
+    "id": 3,
+    "title": "Mobile App Development",
+    "slug": "mobile-app-development",
+    "category": "Mobile",
+    "image": "/assets/images/portfolio/portfolio-3.jpg",
+    "client": "Tech Startup",
+    "date": "2024-01-20"
+  },
+  {
+    "id": 4,
+    "title": "Brand Identity Design",
+    "slug": "brand-identity-design",
+    "category": "Branding",
+    "image": "/assets/images/portfolio/portfolio-4.jpg",
+    "client": "New Business",
+    "date": "2024-01-25"
+  }
+]

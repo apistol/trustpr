@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Business Strategy", "percentage": 95 },
+  { "id": 2, "name": "Digital Marketing", "percentage": 90 },
+  { "id": 3, "name": "Financial Analysis", "percentage": 85 },
+  { "id": 4, "name": "Project Management", "percentage": 92 }
+]

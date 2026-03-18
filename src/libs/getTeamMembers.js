@@ -1,4 +1,4 @@
-import teamMembers from "../../public/fakedata/team-members";
+import teamMembers from "@/data/team-members.json";
 
 const getTeamMembers = () => {
 	return teamMembers;

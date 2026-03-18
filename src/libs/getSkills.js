@@ -1,4 +1,4 @@
-import skills from "../../public/fakedata/skills";
+import skills from "@/data/skills.json";
 
 const getSkills = () => {
   return skills;

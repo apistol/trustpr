@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Business", "slug": "business", "count": 5 },
+  { "id": 2, "name": "Marketing", "slug": "marketing", "count": 8 },
+  { "id": 3, "name": "Technology", "slug": "technology", "count": 12 },
+  { "id": 4, "name": "Design", "slug": "design", "count": 6 }
+]

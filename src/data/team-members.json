@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "David Wilson",
+    "position": "CEO & Founder",
+    "image": "/assets/images/team/team-1.jpg",
+    "bio": "Visionary leader with 20+ years of industry experience.",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Emily Chen",
+    "position": "Creative Director",
+    "image": "/assets/images/team/team-2.jpg",
+    "bio": "Award-winning creative professional.",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 3,
+    "name": "James Miller",
+    "position": "Technical Lead",
+    "image": "/assets/images/team/team-3.jpg",
+    "bio": "Expert in cutting-edge technologies.",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lisa Anderson",
+    "position": "Marketing Manager",
+    "image": "/assets/images/team/team-4.jpg",
+    "bio": "Strategic marketing expert.",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  }
+]

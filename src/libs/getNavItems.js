@@ -1,5 +1,5 @@
 
-import navItems from "../../public/fakedata/nav-items"
+import navItems from "@/data/nav-items.json"
 
 const getNavItems = () => {
 

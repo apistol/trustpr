@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Facebook", "icon": "fab fa-facebook-f", "url": "#" },
+  { "id": 2, "name": "Twitter", "icon": "fab fa-twitter", "url": "#" },
+  { "id": 3, "name": "LinkedIn", "icon": "fab fa-linkedin-in", "url": "#" },
+  { "id": 4, "name": "Instagram", "icon": "fab fa-instagram", "url": "#" }
+]

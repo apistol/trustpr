@@ -1,4 +1,4 @@
-import testimonials from "../../public/fakedata/testimonials";
+import testimonials from "@/data/testimonials.json";
 
 const getTestimonials = () => {
   return testimonials;

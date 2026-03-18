@@ -1,4 +1,4 @@
-import brands from "../../public/fakedata/brands";
+import brands from "@/data/brands.json";
 
 const getBrands = () => {
   return brands;

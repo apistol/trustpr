@@ -1,4 +1,4 @@
-import services from "../../public/fakedata/services";
+import services from "@/data/services.json";
 
 const getALlServices = () => {
   return services;

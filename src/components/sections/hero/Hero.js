@@ -26,14 +26,14 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="banner-shape">
-						<img src="/images/shape/pattern-bg.webp" alt="" />
+						<img src="/images/shape/pattern-bg.svg" alt="" />
 					</div>
 				</div>
 				<div className="banner-right-box">
 					<div className="banner-img">
 						<Image
 							data-speed="0.8"
-							src="/images/hero/hero-img.webp"
+							src="/images/hero/hero-img.svg"
 							alt=""
 							width={945}
 							height={793}
@@ -45,7 +45,7 @@ const Hero = () => {
 								<ul>
 									<li className="wow fadeInLeft" data-wow-delay=".5s">
 										<Image
-											src="/images/testimonial/client-1.webp"
+											src="/images/testimonial/client-1.svg"
 											alt=""
 											width={89}
 											height={89}
@@ -53,7 +53,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<Image
-											src="/images/testimonial/client-2.webp"
+											src="/images/testimonial/client-2.svg"
 											alt=""
 											width={89}
 											height={89}
@@ -61,7 +61,7 @@ const Hero = () => {
 									</li>
 									<li className="wow fadeInLeft" data-wow-delay=".7s">
 										<Image
-											src="/images/testimonial/client-3.webp"
+											src="/images/testimonial/client-3.svg"
 											alt=""
 											width={89}
 											height={89}

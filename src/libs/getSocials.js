@@ -1,4 +1,4 @@
-import socials from "../../public/fakedata/socials"
+import socials from "@/data/socials.json"
 
 const getSocials = () => {
     return  socials

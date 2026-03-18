@@ -1,4 +1,4 @@
-import careers from "../../public/fakedata/careers";
+import careers from "@/data/careers.json";
 
 const getCareers = () => {
 	return careers;

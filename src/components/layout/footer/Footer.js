@@ -10,7 +10,7 @@ const Footer = () => {
 							<div className="footer-widget wow fadeInUp" data-wow-delay=".1s">
 								<div className="footer-logo">
 									<Link href="/">
-										<img src="/images/logos/logo.webp" alt="Logos" />
+										<img src="/images/logos/logo.svg" alt="Logos" />
 									</Link>
 								</div>
 								<div className="footer-text">
@@ -21,10 +21,10 @@ const Footer = () => {
 								</div>
 								<div className="award-logo-area">
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-1.webp" alt="" />
+										<img src="/images/footer/award-logo-1.svg" alt="" />
 									</div>
 									<div className="award-logo">
-										<img src="/images/footer/award-logo-2.webp" alt="" />
+										<img src="/images/footer/award-logo-2.svg" alt="" />
 									</div>
 								</div>
 							</div>

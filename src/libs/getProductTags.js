@@ -1,4 +1,4 @@
-import productTags from "../../public/fakedata/product-tags";
+import productTags from "@/data/product-tags.json";
 
 const getProductTags = () => {
 	return productTags;

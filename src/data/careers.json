@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Senior Developer",
+    "location": "New York, NY",
+    "type": "Full-time",
+    "department": "Engineering",
+    "description": "We're looking for a senior developer to join our team."
+  },
+  {
+    "id": 2,
+    "title": "Marketing Specialist",
+    "location": "Remote",
+    "type": "Full-time",
+    "department": "Marketing",
+    "description": "Join our marketing team to drive growth."
+  },
+  {
+    "id": 3,
+    "title": "UX Designer",
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "department": "Design",
+    "description": "Create amazing user experiences."
+  }
+]

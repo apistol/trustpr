@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Templates", "slug": "templates", "count": 10 },
+  { "id": 2, "name": "Guides", "slug": "guides", "count": 8 },
+  { "id": 3, "name": "Tools", "slug": "tools", "count": 15 },
+  { "id": 4, "name": "Courses", "slug": "courses", "count": 5 }
+]

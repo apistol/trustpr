@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Strategy", "slug": "strategy" },
+  { "id": 2, "name": "Growth", "slug": "growth" },
+  { "id": 3, "name": "Innovation", "slug": "innovation" },
+  { "id": 4, "name": "Digital", "slug": "digital" },
+  { "id": 5, "name": "Trends", "slug": "trends" }
+]
