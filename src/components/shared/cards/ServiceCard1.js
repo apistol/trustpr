@@ -9,7 +9,7 @@ const ServiceCard1 = ({ service, idx, lastItem }) => {
 		<div className="service-item style-1">
 			<div className="service-img">
 				<Image
-					src={img ? img : "/images/service/service-1.webp"}
+					src={img ? img : "/images/service/service-1.svg"}
 					alt="Images"
 					width={870}
 					height={450}

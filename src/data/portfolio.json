@@ -4,7 +4,7 @@
     "title": "Corporate Website Redesign",
     "slug": "corporate-website-redesign",
     "category": "Web Design",
-    "image": "/assets/images/portfolio/portfolio-1.jpg",
+    "img": "/images/project/project-1.svg",
     "client": "ABC Corporation",
     "date": "2024-01-10"
   },
@@ -13,7 +13,7 @@
     "title": "E-commerce Platform",
     "slug": "ecommerce-platform",
     "category": "Development",
-    "image": "/assets/images/portfolio/portfolio-2.jpg",
+    "img": "/images/project/project-1.svg",
     "client": "XYZ Store",
     "date": "2024-01-15"
   },
@@ -22,7 +22,7 @@
     "title": "Mobile App Development",
     "slug": "mobile-app-development",
     "category": "Mobile",
-    "image": "/assets/images/portfolio/portfolio-3.jpg",
+    "img": "/images/project/project-1.svg",
     "client": "Tech Startup",
     "date": "2024-01-20"
   },
@@ -31,7 +31,7 @@
     "title": "Brand Identity Design",
     "slug": "brand-identity-design",
     "category": "Branding",
-    "image": "/assets/images/portfolio/portfolio-4.jpg",
+    "img": "/images/project/project-1.svg",
     "client": "New Business",
     "date": "2024-01-25"
   }

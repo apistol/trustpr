@@ -3,32 +3,32 @@
     "id": 1,
     "title": "Business Consulting",
     "slug": "business-consulting",
-    "icon": "flaticon-consulting",
-    "description": "Expert business consulting services to help your company grow and succeed.",
-    "image": "/assets/images/services/service-1.jpg"
+    "iconName": "tji-service-1",
+    "desc": "Expert business consulting services to help your company grow and succeed.",
+    "img": "/images/service/service-1.svg"
   },
   {
     "id": 2,
     "title": "Financial Planning",
     "slug": "financial-planning",
-    "icon": "flaticon-finance",
-    "description": "Comprehensive financial planning and advisory services for businesses.",
-    "image": "/assets/images/services/service-2.jpg"
+    "iconName": "tji-service-2",
+    "desc": "Comprehensive financial planning and advisory services for businesses.",
+    "img": "/images/service/service-1.svg"
   },
   {
     "id": 3,
     "title": "Digital Marketing",
     "slug": "digital-marketing",
-    "icon": "flaticon-marketing",
-    "description": "Result-driven digital marketing strategies to boost your online presence.",
-    "image": "/assets/images/services/service-3.jpg"
+    "iconName": "tji-service-3",
+    "desc": "Result-driven digital marketing strategies to boost your online presence.",
+    "img": "/images/service/service-1.svg"
   },
   {
     "id": 4,
     "title": "IT Solutions",
     "slug": "it-solutions",
-    "icon": "flaticon-technology",
-    "description": "Innovative IT solutions tailored to meet your business needs.",
-    "image": "/assets/images/services/service-4.jpg"
+    "iconName": "tji-service-4",
+    "desc": "Innovative IT solutions tailored to meet your business needs.",
+    "img": "/images/service/service-1.svg"
   }
 ]
