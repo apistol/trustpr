@@ -7,18 +7,10 @@ const Logo = ({ headerType, isStickyHeader }) => {
 		<div className="site_logo">
 			<Link className="logo" href="/">
 				<Image
-					src={
-						(headerType === 2 ||
-							headerType === 5 ||
-							headerType === 7 ||
-							headerType === 9) &&
-						!isStickyHeader
-							? "/images/logos/logo-2.svg"
-							: "/images/logos/logo.svg"
-					}
-					alt=""
-					width={544}
-					height={152}
+					src="/images/logos/logotrustpr.svg"
+					alt="TrustPR"
+					width={180}
+					height={50}
 					style={{ height: "auto" }}
 				/>
 			</Link>

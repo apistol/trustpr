@@ -6,13 +6,14 @@ import ButtonPrimary from "../buttons/ButtonPrimary";
 
 const BlogCard1 = ({ blog, idx }) => {
 	const { title, desc, id, img, category, date, day, month } = blog || {};
+	const displayImg = img || "https://placehold.co/870x450/0a1628/ffffff?text=Blog";
 	return (
 		<div className="blog-item wow fadeInUp" data-wow-delay={`0.${idx + 1}s`}>
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
 					{" "}
 					<Image
-						src={img ? img : "/images/blog/blog-1.svg"}
+						src={displayImg}
 						alt="Images"
 						width={870}
 						height={450}

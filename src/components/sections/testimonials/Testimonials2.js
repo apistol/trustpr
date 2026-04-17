@@ -24,7 +24,7 @@ const Testimonials2 = ({ type }) => {
 							<div className="testimonial-img">
 								<img
 									data-speed=".8"
-									src="/images/testimonial/testimonial-img.webp"
+									src="https://placehold.co/600x700/0a1628/ffffff?text=Testimonials"
 									alt=""
 								/>
 								<div className="sec-heading style-2">

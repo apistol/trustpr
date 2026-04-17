@@ -13,7 +13,7 @@ const About9 = () => {
 							<div className="about-img overflow-hidden">
 								<img
 									data-speed=".8"
-									src="/images/about/h10-about-banner.webp"
+									src="https://placehold.co/600x700/0a1628/ffffff?text=About+Us"
 									alt=""
 								/>
 							</div>
@@ -40,7 +40,7 @@ const About9 = () => {
 										data-wow-delay=".3s"
 									>
 										<div className="about-img">
-											<img src="/images/about/h10-about-banner.webp" alt="" />
+											<img src="https://placehold.co/600x700/0a1628/ffffff?text=About+Us" alt="" />
 										</div>
 									</div>
 								</div>
@@ -54,19 +54,19 @@ const About9 = () => {
 												<ul>
 													<li className="wow fadeInLeft" data-wow-delay=".2s">
 														<img
-															src="/images/testimonial/client-1.webp"
+															src="https://placehold.co/60x60/0a1628/ffffff?text=C1"
 															alt=""
 														/>
 													</li>
 													<li className="wow fadeInLeft" data-wow-delay=".3s">
 														<img
-															src="/images/testimonial/client-2.webp"
+															src="https://placehold.co/60x60/1a1a1a/ffffff?text=C2"
 															alt=""
 														/>
 													</li>
 													<li className="wow fadeInLeft" data-wow-delay=".4s">
 														<img
-															src="/images/testimonial/client-3.webp"
+															src="https://placehold.co/60x60/2d2d2d/ffffff?text=C3"
 															alt=""
 														/>
 													</li>

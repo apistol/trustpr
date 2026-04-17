@@ -5,7 +5,7 @@
     "slug": "business-consulting",
     "iconName": "tji-service-1",
     "desc": "Expert business consulting services to help your company grow and succeed.",
-    "img": "/images/service/service-1.svg"
+    "img": "https://placehold.co/600x400/0a1628/ffffff?text=Business+Consulting"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "slug": "financial-planning",
     "iconName": "tji-service-2",
     "desc": "Comprehensive financial planning and advisory services for businesses.",
-    "img": "/images/service/service-1.svg"
+    "img": "https://placehold.co/600x400/1a1a1a/ffffff?text=Financial+Planning"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "slug": "digital-marketing",
     "iconName": "tji-service-3",
     "desc": "Result-driven digital marketing strategies to boost your online presence.",
-    "img": "/images/service/service-1.svg"
+    "img": "https://placehold.co/600x400/2d2d2d/ffffff?text=Digital+Marketing"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "slug": "it-solutions",
     "iconName": "tji-service-4",
     "desc": "Innovative IT solutions tailored to meet your business needs.",
-    "img": "/images/service/service-1.svg"
+    "img": "https://placehold.co/600x400/3d3d3d/ffffff?text=IT+Solutions"
   }
 ]

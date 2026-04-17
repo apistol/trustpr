@@ -4,12 +4,13 @@ import Link from "next/link";
 import ButtonPrimary from "../buttons/ButtonPrimary";
 
 const BlogCard2 = ({ blog, idx }) => {
-	const { title, desc, id, img1, category, date, day, month } = blog || {};
+	const { title, desc, id, img1, img, category, date, day, month } = blog || {};
+	const displayImg = img1 || img || "https://placehold.co/800x500/0a1628/ffffff?text=Blog";
 	return (
 		<div className="blog-item style-2">
 			<div className="blog-thumb">
 				<Link href={`/blogs/${id}`}>
-					<img src={img1 ? img1 : "/images/blog/blog-4.webp"} alt="" />
+					<img src={displayImg} alt="" />
 				</Link>
 				<div className="blog-date">
 					<span className="date">{modifyNumber(day)}</span>

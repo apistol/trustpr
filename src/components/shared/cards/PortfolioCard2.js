@@ -3,17 +3,19 @@ import Link from "next/link";
 const PortfolioCard2 = ({ portfolio }) => {
 	const {
 		title = "Event Management Platform",
-		img2 = "/images/project/project-1.webp",
+		img2,
+		img,
 		shortDesc,
 		id,
 		dataFilter,
 		category = "Connect",
 	} = portfolio ? portfolio : {};
+	const displayImg = img2 || img || "https://placehold.co/800x600/0a1628/ffffff?text=Portfolio";
 	return (
 		<div className="project-item">
 			<div
 				className="project-img"
-				style={{ backgroundImage: `url(${img2})` }}
+				style={{ backgroundImage: `url(${displayImg})` }}
 			></div>
 			<div className="project-content">
 				<span className="categories">

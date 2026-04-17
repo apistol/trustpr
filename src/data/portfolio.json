@@ -4,7 +4,7 @@
     "title": "Corporate Website Redesign",
     "slug": "corporate-website-redesign",
     "category": "Web Design",
-    "img": "/images/project/project-1.svg",
+    "img": "https://placehold.co/800x600/0a1628/ffffff?text=Web+Design",
     "client": "ABC Corporation",
     "date": "2024-01-10"
   },
@@ -13,7 +13,7 @@
     "title": "E-commerce Platform",
     "slug": "ecommerce-platform",
     "category": "Development",
-    "img": "/images/project/project-1.svg",
+    "img": "https://placehold.co/800x600/1a1a1a/ffffff?text=E-commerce",
     "client": "XYZ Store",
     "date": "2024-01-15"
   },
@@ -22,7 +22,7 @@
     "title": "Mobile App Development",
     "slug": "mobile-app-development",
     "category": "Mobile",
-    "img": "/images/project/project-1.svg",
+    "img": "https://placehold.co/800x600/2d2d2d/ffffff?text=Mobile+App",
     "client": "Tech Startup",
     "date": "2024-01-20"
   },
@@ -31,7 +31,7 @@
     "title": "Brand Identity Design",
     "slug": "brand-identity-design",
     "category": "Branding",
-    "img": "/images/project/project-1.svg",
+    "img": "https://placehold.co/800x600/3d3d3d/ffffff?text=Branding",
     "client": "New Business",
     "date": "2024-01-25"
   }

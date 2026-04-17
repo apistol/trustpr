@@ -1,8 +1,8 @@
 [
-  { "id": 1, "name": "Brand 1", "img": "/images/brands/brand-1.svg" },
-  { "id": 2, "name": "Brand 2", "img": "/images/brands/brand-1.svg" },
-  { "id": 3, "name": "Brand 3", "img": "/images/brands/brand-1.svg" },
-  { "id": 4, "name": "Brand 4", "img": "/images/brands/brand-1.svg" },
-  { "id": 5, "name": "Brand 5", "img": "/images/brands/brand-1.svg" },
-  { "id": 6, "name": "Brand 6", "img": "/images/brands/brand-1.svg" }
+  { "id": 1, "name": "Brand 1", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+1" },
+  { "id": 2, "name": "Brand 2", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+2" },
+  { "id": 3, "name": "Brand 3", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+3" },
+  { "id": 4, "name": "Brand 4", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+4" },
+  { "id": 5, "name": "Brand 5", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+5" },
+  { "id": 6, "name": "Brand 6", "img": "https://placehold.co/200x80/f8f8f8/717171?text=Partner+6" }
 ]

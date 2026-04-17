@@ -3,7 +3,7 @@
     "id": 1,
     "name": "David Wilson",
     "position": "CEO & Founder",
-    "image": "/assets/images/team/team-1.jpg",
+    "image": "https://placehold.co/400x500/0a1628/ffffff?text=David+Wilson",
     "bio": "Visionary leader with 20+ years of industry experience.",
     "social": {
       "facebook": "#",
@@ -15,7 +15,7 @@
     "id": 2,
     "name": "Emily Chen",
     "position": "Creative Director",
-    "image": "/assets/images/team/team-2.jpg",
+    "image": "https://placehold.co/400x500/1a1a1a/ffffff?text=Emily+Chen",
     "bio": "Award-winning creative professional.",
     "social": {
       "facebook": "#",
@@ -27,7 +27,7 @@
     "id": 3,
     "name": "James Miller",
     "position": "Technical Lead",
-    "image": "/assets/images/team/team-3.jpg",
+    "image": "https://placehold.co/400x500/2d2d2d/ffffff?text=James+Miller",
     "bio": "Expert in cutting-edge technologies.",
     "social": {
       "facebook": "#",
@@ -39,7 +39,7 @@
     "id": 4,
     "name": "Lisa Anderson",
     "position": "Marketing Manager",
-    "image": "/assets/images/team/team-4.jpg",
+    "image": "https://placehold.co/400x500/3d3d3d/ffffff?text=Lisa+Anderson",
     "bio": "Strategic marketing expert.",
     "social": {
       "facebook": "#",

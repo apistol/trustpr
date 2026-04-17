@@ -3,7 +3,7 @@
     "id": 1,
     "name": "John Smith",
     "position": "CEO, Tech Company",
-    "img": "/images/testimonial/client-1.svg",
+    "img": "https://placehold.co/100x100/0a1628/ffffff?text=JS",
     "rating": 5,
     "desc": "Working with this team has been an incredible experience. They delivered beyond our expectations."
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Sarah Johnson",
     "position": "Marketing Director",
-    "img": "/images/testimonial/client-2.svg",
+    "img": "https://placehold.co/100x100/1a1a1a/ffffff?text=SJ",
     "rating": 5,
     "desc": "Professional, creative, and dedicated. Highly recommend their services to anyone."
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Michael Brown",
     "position": "Startup Founder",
-    "img": "/images/testimonial/client-3.svg",
+    "img": "https://placehold.co/100x100/2d2d2d/ffffff?text=MB",
     "rating": 5,
     "desc": "They transformed our vision into reality. Outstanding work and communication throughout."
   }

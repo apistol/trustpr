@@ -46,7 +46,7 @@ const About2 = () => {
 							</div>
 							<div className="video-img wow fadeInRight" data-wow-delay=".7s">
 								<Image
-									src="/images/about/about-3.webp"
+									src="https://placehold.co/120x320/0a1628/ffffff?text=Video"
 									alt="Image"
 									width={120}
 									height={320}
@@ -69,21 +69,21 @@ const About2 = () => {
 							className="customers-box style-2 wow fadeInUp"
 							data-wow-delay=".3s"
 						>
-							<div
-								className="customers-bg"
-								style={{ backgroundImage: "url('/images/about/about-4.webp')" }}
-							></div>
-							<div className="customers">
-								<ul>
-									<li className="wow fadeInLeft" data-wow-delay=".3s">
-										<img src="/images/testimonial/client-1.webp" alt="" />
-									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".4s">
-										<img src="/images/testimonial/client-2.webp" alt="" />
-									</li>
-									<li className="wow fadeInLeft" data-wow-delay=".5s">
-										<img src="/images/testimonial/client-3.webp" alt="" />
-									</li>
+						<div
+							className="customers-bg"
+							style={{ backgroundImage: "url('https://placehold.co/400x300/1a1a1a/ffffff?text=Customers')" }}
+						></div>
+						<div className="customers">
+							<ul>
+								<li className="wow fadeInLeft" data-wow-delay=".3s">
+									<img src="https://placehold.co/60x60/0a1628/ffffff?text=C1" alt="" />
+								</li>
+								<li className="wow fadeInLeft" data-wow-delay=".4s">
+									<img src="https://placehold.co/60x60/1a1a1a/ffffff?text=C2" alt="" />
+								</li>
+								<li className="wow fadeInLeft" data-wow-delay=".5s">
+									<img src="https://placehold.co/60x60/2d2d2d/ffffff?text=C3" alt="" />
+								</li>
 									<li className="wow fadeInLeft" data-wow-delay=".6s">
 										<span>
 											<i className="tji-plus"></i>

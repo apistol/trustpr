@@ -5,7 +5,7 @@
     "slug": "business-plan-template",
     "price": 49.99,
     "salePrice": 39.99,
-    "image": "/assets/images/products/product-1.jpg",
+    "image": "https://placehold.co/400x400/0a1628/ffffff?text=Product+1",
     "category": "Templates",
     "tags": ["business", "template"],
     "description": "Professional business plan template for startups."
@@ -16,7 +16,7 @@
     "slug": "marketing-strategy-guide",
     "price": 79.99,
     "salePrice": null,
-    "image": "/assets/images/products/product-2.jpg",
+    "image": "https://placehold.co/400x400/1a1a1a/ffffff?text=Product+2",
     "category": "Guides",
     "tags": ["marketing", "guide"],
     "description": "Comprehensive marketing strategy guide."
@@ -27,7 +27,7 @@
     "slug": "financial-analysis-toolkit",
     "price": 99.99,
     "salePrice": 79.99,
-    "image": "/assets/images/products/product-3.jpg",
+    "image": "https://placehold.co/400x400/2d2d2d/ffffff?text=Product+3",
     "category": "Tools",
     "tags": ["finance", "analysis"],
     "description": "Complete financial analysis toolkit."
