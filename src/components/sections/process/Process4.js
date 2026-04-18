@@ -1,56 +1,57 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-import ProcessCard4 from "@/components/shared/cards/ProcessCard4";
-
 const Process4 = () => {
-	const process = [
-		{
-			id: 1,
-			iconName: "tji-growth",
-			title: "Discovery & Planning",
-			desc: "The first step in our’s process is understanding your unique business needs, objectives, and our cutomes  challenges. first step in our process is understanding",
-		},
-		{
-			id: 2,
-			iconName: "tji-worldwide",
-			title: "Execution & Delivery",
-			desc: "Once the plan is in place, our team moves forward with execution, turning strategies into actiony to deliver. he first step in our’s process is understanding.",
-		},
-		{
-			id: 3,
-			title: "Review & Support",
-			iconName: "tji-complete",
-			desc: "After project completion  conduct thorough review to ensure everything aligns with your goals requirements. he first step in our’s process is understanding.",
-		},
+	const onboardingSteps = [
+		"Brief inițial",
+		"Setarea obiectivelor",
+		"Calendar editorial",
+		"Definirea mesajelor",
+		"Implementare",
+		"Raportare"
 	];
 
 	return (
 		<section className="h10-process section-gap section-gap-x tj-sticky-panel-3-container">
 			<div className="container">
 				<div className="row">
-					<div className="col-12 col-lg-5">
-						<div className="sec-heading style-3 tj-sticky-panel-3">
-							<span className="sub-title">
-								<i className="tji-box"></i> Our PROCESS
+					<div className="col-12">
+						<div className="sec-heading style-3 text-center mb-5">
+							<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
+								<i className="tji-box"></i> Procesul de onboarding
 							</span>
 							<h2 className="sec-title text-anim">
-								Seamless Process and Great Results.
+								Cum începem o colaborare
 							</h2>
-							<div className="h10-process-more">
-								<ButtonPrimary text={"Explore More"} url={"/about"} />
-							</div>
 						</div>
 					</div>
-					<div className="col-12 col-lg-7 ">
-						<div className="h10-process-wrapper">
-							{process?.length
-								? process?.map((processSingle, idx) => (
-										<ProcessCard4
-											key={idx}
-											processSingle={processSingle}
-											idx={idx}
-										/>
-								  ))
-								: ""}
+				</div>
+				<div className="row">
+					<div className="col-12">
+						<div className="wow fadeInUp" data-wow-delay=".4s" style={{ 
+							display: "flex", 
+							flexWrap: "wrap",
+							justifyContent: "center",
+							alignItems: "center",
+							gap: "20px",
+							padding: "40px 0"
+						}}>
+							{onboardingSteps.map((step, idx) => (
+								<div key={idx} style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+									<div style={{
+										padding: "20px 30px",
+										border: "1px solid #e5e5e5",
+										borderRadius: "4px",
+										fontSize: "16px",
+										fontWeight: "500",
+										color: "#1a1a1a",
+										background: "#fff",
+										transition: "all 0.3s ease"
+									}}>
+										{step}
+									</div>
+									{idx < onboardingSteps.length - 1 && (
+										<span style={{ color: "#717171", fontSize: "20px" }}>→</span>
+									)}
+								</div>
+							))}
 						</div>
 					</div>
 				</div>
@@ -60,9 +61,6 @@ const Process4 = () => {
 			</div>
 			<div className="bg-shape-2">
 				<img src="/images/shape/pattern-3.svg" alt="" />
-			</div>
-			<div className="bg-shape-3">
-				<img src="/images/shape/h7-testimonial-shape-blur.svg" alt="" />
 			</div>
 		</section>
 	);

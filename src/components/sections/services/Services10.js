@@ -6,22 +6,17 @@ const Services10 = () => {
 		{
 			id: 1,
 			title: "Diagnostic",
-			desc: "Analizăm în profunzime situația actuală a brandului, identificăm punctele forte și zonele de îmbunătățire, evaluăm percepția publică și definim obiectivele de comunicare.",
+			desc: "Înțelegem businessul, obiectivele și publicurile. Analizăm situația actuală și identificăm oportunitățile de comunicare.",
 		},
 		{
 			id: 2,
 			title: "Strategie",
-			desc: "Dezvoltăm un plan de comunicare personalizat, cu mesaje cheie clare, canale de distribuție optimizate și un calendar editorial adaptat nevoilor și resurselor disponibile.",
+			desc: "Creăm un plan complet, adaptat și realist. Dezvoltăm mesaje cheie și definim canalele optime de comunicare.",
 		},
 		{
 			id: 3,
-			title: "Execuție",
-			desc: "Implementăm strategia cu atenție la detalii, gestionăm relațiile cu media, creăm conținut de calitate și coordonăm toate activitățile de comunicare în mod integrat.",
-		},
-		{
-			id: 4,
-			title: "Măsurare",
-			desc: "Monitorizăm rezultatele în timp real, analizăm impactul acțiunilor de comunicare, raportăm progresul și ajustăm strategia pentru a maximiza eficiența.",
+			title: "Execuție & Măsurare",
+			desc: "Implementăm, monitorizăm și ajustăm permanent. Raportăm rezultatele și optimizăm strategia în timp real.",
 		},
 	];
 
@@ -55,7 +50,7 @@ const Services10 = () => {
 						>
 							<div className="row g-4">
 								{steps.map((step, idx) => (
-									<div key={idx} className="col-12 col-md-6 col-lg-3">
+									<div key={idx} className="col-12 col-md-4">
 										<div className="service-item style-4">
 											<span className="steps">0{step.id}.</span>
 											<div className="service-content">
